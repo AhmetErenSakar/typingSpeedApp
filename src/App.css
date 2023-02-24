@@ -1,0 +1,80 @@
+* {
+  background-color: #add5ff;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  height: 650px;
+  width: 1000px;
+}
+.content {
+  background-color: #fff;
+  border: 0.5px solid black;
+  width: 800px;
+  height: 100px;
+  padding: 8px;
+}
+.content .text {
+  background-color: #fff;
+  word-wrap: break-word;
+  font-size: 26px;
+  margin: 5px;
+  overflow: hidden;
+}
+.content .text.false {
+  color: red;
+}
+.content .text.true {
+  color: green;
+}
+.typing {
+  display: flex;
+  justify-content: center;
+  background-color: #a7c8e7;
+  width: 800px;
+  height: 50px;
+  margin-top: 15px;
+}
+.typing input {
+  background-color: #fff;
+  font-size: 26px;
+  margin: 5px;
+  width: 350px;
+  height: 40px;
+}
+.typing .sayac {
+  background-color: #3c4d5c;
+  color: #fff;
+  font-size: 26px;
+  border-radius: 3px;
+  margin: 5px;
+  padding-left: 7px;
+  width: 60px;
+  height: 40px;
+}
+.typing .btn {
+  background-color: #428bca;
+  margin: 5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+}
+.typing .btn button {
+  font-size: 26px;
+  padding-left: 12px;
+  padding-top: 5px;
+  color: #fff;
+  border: none;
+  background-color: #428bca;
+  cursor: pointer;
+}
